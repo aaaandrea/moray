@@ -9,7 +9,7 @@ Moray is based on slither.io
   * Player growth
 
 ## Design Docs
-  * [View Wireframes](https://github.com/adelrio1/rupture/tree/master/docs/Wireframes)
+  * [View Wireframes](https://github.com/adelrio1/moray/tree/master/docs/Wireframes)
 
 ## Technologies
   * HTML5 Canvas API rendering gameplay
@@ -24,9 +24,9 @@ Moray is based on slither.io
 
 ## Implementation Timeline
 ### Day 1
+  * Webpack
   * Render starting screen
   * Render game board canvas
-  * Webpack
   * Configure component files
 
 ### Day 2
