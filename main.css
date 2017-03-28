@@ -16,8 +16,6 @@ h1 {
 canvas {
   margin-top: 5%;
   background: lightblue;
-  width: 600px;
-  height: 500px;
   border: gray 1px solid
 }
 

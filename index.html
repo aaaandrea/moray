@@ -19,11 +19,27 @@
 
       <div class="moray-canvas">
         <canvas
-          id="canvas">
+          id="myCanvas"
+          width='600px'
+          height='500px'>
         </canvas>
         <script type="text/javascript">
           var canvas = document.querySelector('#myCanvas');
           var context = canvas.getContext('2d');
+
+          // draw a diagonal line
+          context.moveTo(25, 25);
+          context.lineTo(400, 200);
+
+          // close the path
+          context.closePath();
+
+          // specify what our line looks like
+          context.lineWidth = 30;
+          context.strokeStyle = "steelblue";
+
+          // get the line drawn to the canvas
+          context.stroke();
         </script>
       </div>
 
