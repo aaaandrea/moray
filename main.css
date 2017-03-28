@@ -8,7 +8,7 @@ html, body, canvas {
   justify-content: center;
 }
 
-label {
+h1 {
   color: black;
   flex-direction: row;
 }
@@ -19,4 +19,9 @@ canvas {
   width: 600px;
   height: 500px;
   border: gray 1px solid
+}
+
+p {
+  display: block;
+  justify-content: left;
 }
