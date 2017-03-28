@@ -1,0 +1,22 @@
+
+html, body, canvas {
+  padding: 0px;
+  margin: 0px;
+  background: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  color: black;
+  flex-direction: row;
+}
+
+canvas {
+  margin-top: 5%;
+  background: lightblue;
+  width: 600px;
+  height: 500px;
+  border: gray 1px solid
+}

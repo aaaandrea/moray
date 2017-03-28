@@ -3,39 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>Moray</title>
-    <style>
-      html, body, canvas {
-        padding: 0px;
-        margin: 0px;
-        background: lightgray;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+    <script type="text/javascript" src='bundle.js'></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
 
-      canvas {
-        margin-top: 15%;
-        background: lightblue;
-        width: 600px;
-        height: 500px;
-        border: gray 1px solid;
-      }
-
-      .moray-title {
-        color: black;
-      }
-    </style>
   </head>
   <body>
-    <canvas
-      id="canvas">
-    </canvas>
+    <div class="moray-container">
+      <div class="moray-header">
+        <h1 class="moray-title">Moray</h1>
+      </div>
 
-    <script
-      type="text/javascript"
-      src='bundle.js'>
-    </script>
+      <div class="moray-canvas">
+        <canvas
+        id="canvas">
+      </canvas>
 
-    <title className="moray-title">Moray</title>
+
+    </div>
+
+    </div>
+
   </body>
 </html>
