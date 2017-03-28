@@ -2,9 +2,40 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Moray</title>
+    <style>
+      html, body, canvas {
+        padding: 0px;
+        margin: 0px;
+        background: lightgray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      canvas {
+        margin-top: 15%;
+        background: lightblue;
+        width: 600px;
+        height: 500px;
+        border: gray 1px solid;
+      }
+
+      .moray-title {
+        color: black;
+      }
+    </style>
   </head>
   <body>
+    <canvas
+      id="canvas">
+    </canvas>
 
+    <script
+      type="text/javascript"
+      src='bundle.js'>
+    </script>
+
+    <title className="moray-title">Moray</title>
   </body>
 </html>
