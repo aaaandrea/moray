@@ -3,25 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Moray</title>
-    <script type="text/javascript" src='./lib/bundle.js'></script>
+
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+
+    <script
+      type="text/javascript" src='./lib/bundle.js'>
+    </script>
+
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
-
   </head>
   <body>
     <div class="moray-container">
       <div class="moray-header">
         <h1 class="moray-title">Moray</h1>
-      </div>
-
-      <div class="moray-desc">
-        <p>Your moray follows your cursor, but don't cross paths with other morays. Grow by eating pellets, or other morays! It's a moray eat moray world out there.</p>
+        <p class="moray-desc">Your moray follows your cursor. Grow by eating pellets, or other morays! It's a moray eat moray world out there.</p>
       </div>
 
       <div class="moray-canvas">
         <canvas
-          id="canvas">
+          id="canvas"
+          width="500px"
+          height="400px">
+
         </canvas>
+
       </div>
 
     </div>

@@ -1,28 +1,37 @@
 
 html, body {
-  padding: 0px;
-  margin: 0px;
+  margin: 10px;
   background: lightgray;
   height: 100%;
-  margin 0;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
-h1 {
+.moray-container {
+
+}
+
+.moray-header {
+  display: flex;
+}
+
+.moray-title {
   color: black;
   flex-direction: row;
+  font-size: 36px;
+  font-weight: bold;
 }
 
-canvas {
+.moray-desc {
+  padding: 5px;
+  display: block;
+}
+
+#canvas {
   position: absolute;
   justify-content: center;
   align-items: center;
   margin: 5%;
   background: lightblue;
   border: gray 1px solid
-}
-
-p {
-  display: block;
-  justify-content: left;
 }
