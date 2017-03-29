@@ -1,11 +1,11 @@
 
-html, body, canvas {
+html, body {
   padding: 0px;
   margin: 0px;
   background: lightgray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 100%;
+  margin 0;
+  overflow: hidden;
 }
 
 h1 {
@@ -14,7 +14,10 @@ h1 {
 }
 
 canvas {
-  margin-top: 5%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
   background: lightblue;
   border: gray 1px solid
 }
