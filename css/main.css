@@ -33,6 +33,6 @@ html, body, canvas {
   justify-content: center;
   align-items: center;
   margin: 5%;
-  background: black;
+  background: white;
   border: gray 1px solid
 }
