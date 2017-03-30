@@ -2,6 +2,7 @@
 html, body, canvas {
   margin: 10px;
   background: lightgray;
+  /*background-image: url('http://res.cloudinary.com/dg0cmca7a/image/upload/v1490854449/306fddfb08d26c2962d0965592cc1f26_j4yeov.jpg')*/
   /*height: 100%;*/
   display: flex;
   flex-direction: column;
@@ -9,23 +10,39 @@ html, body, canvas {
 }
 
 .moray-container {
-  background: white;
+  /*background: white;*/
+  width: 540px;
 }
 
 .moray-header {
   display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  border: 1px solid #4887E5;
+  padding: 10px;
 }
 
 .moray-title {
+  border-right: 1px solid #4887E5;
+}
+
+.moray-h1 {
   color: black;
   flex-direction: row;
   font-size: 36px;
   font-weight: bold;
 }
 
+.moray-h2 {
+  font-size: 14px;
+}
+
 .moray-desc {
-  padding: 5px;
+  margin: 8px;
+  margin-left: 14px;
+  font-size: 14px;
   display: block;
+  align-items: center
 }
 
 #canvas {
@@ -33,6 +50,6 @@ html, body, canvas {
   justify-content: center;
   align-items: center;
   margin: 5%;
-  background: white;
+  background: #4887E5;
   border: gray 1px solid
 }
