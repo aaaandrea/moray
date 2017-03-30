@@ -8,6 +8,14 @@ Moray is based on slither.io
   * View score
   * Player growth
 
+  - PROPOSED CHANGED MVPS
+    * Move following cursor
+    * Win / Lose
+    * Eat pellets
+    * Morays can eat each other
+    * Other Morays move
+    * Start on spacebar
+
 ## Design Docs
   * [View Wireframes](https://github.com/adelrio1/moray/tree/master/docs/Wireframes)
 
