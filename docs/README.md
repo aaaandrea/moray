@@ -1,5 +1,5 @@
 # Moray Proposal
-Moray is based on slither.io
+Moray is game which tracks the cursor and grows your eel.
 
 ## MVPs
 
