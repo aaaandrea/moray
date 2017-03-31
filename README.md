@@ -1,6 +1,6 @@
 # Moray
 
-[Live Link]()
+[Live Link](https://adelrio1.github.io/moray/)
 
 ## Gameplay instructions
 The game play is simple. Press spacebar to start the game. Your moray follows your cursor. Eat all the morays and win! You will also grow larger as you eat others.
