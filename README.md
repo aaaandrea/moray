@@ -61,6 +61,8 @@ The game play is simple. Press spacebar to start the game. Your moray follows yo
 
 
 ## Future implementations:
+  * Ensure eels do not go off the page.
+  * Ensure collisions allow a player to lose
   * Eels will grow by length rather than overall size.
   * There will be no 'win' clause, instead eels will be regenerated after a certain number disappear.
   * Slowdown and booster speeds will be given for each 'movingMoray.'
