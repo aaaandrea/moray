@@ -2,19 +2,13 @@
 Moray is based on slither.io
 
 ## MVPs
-  * Start, and reset the game
-  * Move following cursor
-  * Win and lose
-  * View score
-  * Player growth
 
-  - PROPOSED CHANGED MVPS
-    * Move following cursor
-    * Win / Lose
-    * Eat pellets
-    * Morays can eat each other
-    * Other Morays move
-    * Start on spacebar
+  * Move following cursor
+  * Win / Lose
+  * Eat pellets
+  * Morays can eat each other
+  * Other Morays move
+  * Start on spacebar
 
 ## Design Docs
   * [View Wireframes](https://github.com/adelrio1/moray/tree/master/docs/Wireframes)
@@ -45,13 +39,11 @@ Moray is based on slither.io
 ### Day 3
   * Add logic to render adversaries on the canvas
   * Add collision detection between player and other morays
-  * Create won/lost conditions on the board
-  * Create score logic and render
 
 ### Day 4
-  * Add icons for player and other morays
+  * Adjust trajectories for morays
   * Create controls for game start/reset
-  * Stylize to look more like slither.io
+  * Create won/lost conditions on the board
 
 ## Bonus
   * Slow speed as player gets larger
