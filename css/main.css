@@ -1,7 +1,7 @@
 
 html, body, canvas {
   margin: 10px;
-  background: lightgray;
+  background: white;
   /*background-image: url('http://res.cloudinary.com/dg0cmca7a/image/upload/v1490854449/306fddfb08d26c2962d0965592cc1f26_j4yeov.jpg')*/
   /*height: 100%;*/
   display: flex;
@@ -11,7 +11,7 @@ html, body, canvas {
 
 .moray-container {
   /*background: white;*/
-  width: 540px;
+  width: 533px;
 }
 
 .moray-header {
@@ -19,17 +19,19 @@ html, body, canvas {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-left: 30px;
-  border: 1px solid #4887E5;
+  margin-left: 27px;
+  margin-right: 5px;
+  border: 1px solid #22144C;
   padding: 10px;
+  color: #6F42A2;
 }
 
 .moray-title {
-  border-right: 1px solid #4887E5;
+  border-right: 1px solid #22144C;
 }
 
 .moray-h1 {
-  color: black;
+  color: #22144C;
   flex-direction: row;
   font-size: 36px;
   font-weight: bold;
@@ -53,7 +55,7 @@ html, body, canvas {
 }
 
 .moray-h3 {
-  color: black;
+  color: #6F42A2;
   flex-direction: row;
   font-size: 14px;
   margin-top: 10px;
@@ -61,9 +63,9 @@ html, body, canvas {
 
 #canvas {
   /*position: absolute;*/
-  /*justify-content: center;*/
-  /*align-items: center;*/
+  justify-content: center;
+  align-items: center;
   margin: 5%;
-  background: #4887E5;
+  background: #22144C;
   border: gray 2px solid
 }
