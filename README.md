@@ -5,7 +5,7 @@
 ## Gameplay instructions
 The game play is simple. Press spacebar to start the game. Your moray follows your cursor. Eat all the morays and win! You will also grow larger as you eat others.
 
-![Alt text](https://github.com/adelrio1/moray/blob/master/docs/Screen%20Shot%202017-03-31%20at%2011.14.48%20AM.png"screenshot")
+![Alt text]("screenshot")
 
 ## Languages and Libraries implementation.
   * JavaScript is used for all the backend game logic including finding an object's coordinates, trajectory, collisions, and growth.
