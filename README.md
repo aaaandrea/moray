@@ -7,7 +7,7 @@ The game play is simple. Press spacebar to start the game. Your moray follows yo
 
 ![Alt text](https://raw.githubusercontent.com/adelrio1/moray/master/docs/screenshot.jpg "screenshot")
 
-## Languages and Libraries implementation.
+## Languages and Libraries Implementation.
   * JavaScript is used for all the backend game logic including finding an object's coordinates, trajectory, collisions, and growth.
   * Canvas.js is used for all animations and rendering.
   * Keymaster.js is used to set and reset the game.
@@ -63,7 +63,7 @@ The game play is simple. Press spacebar to start the game. Your moray follows yo
 ## Future implementations:
   * Ensure eels do not go off the page.
   * Ensure collisions allow a player to lose.
-  * Set specific color variations that render well given the background. 
+  * Set specific color variations that render well given the background.
   * Eels will grow by length rather than overall size.
   * There will be no 'win' clause, instead eels will be regenerated after a certain number disappear.
   * Slowdown and booster speeds will be given for each 'movingMoray.'
